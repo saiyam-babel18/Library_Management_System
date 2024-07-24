@@ -8,7 +8,7 @@ import mysql.connector as sqltor
 
 cobj=sqltor.connect(host="localhost" , user="root" , passwd="fiitjee@40625" , database="navacomp")
 
-"""
+
 def RETURN():
     cursor1=cobj.cursor()
     mobileno=input("Enter your mobile no. ")  #Use the mobile no given during log in
@@ -56,5 +56,4 @@ def RETURN():
         #Go back to user menu
     
 RETURN()
-"""
     
